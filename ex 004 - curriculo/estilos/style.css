@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Krona+One&family=Pacifico&family=Play:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Roboto+Slab:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+    --cor-primaria: #BED7DC;
+    --cor-secundaria: #1B1A17;
+    --cor-terciaria: #EF9595;
+    --cor-quartiaria: #F86F03;
+    --cor-quintaria: #E3FCBF;
+    --cor-sextiaria: #F5E8C7;
+
+    --fonte-primaria: "Pacifico", cursive;
+    --fonte-secundaria: "Anton", sans-serif;
+    --fonte-terciaria: "Arvo", serif;
+    --fonte-quartiaria: "Play", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: #000000;
+    border: none;
+}
+
+.imagem-logo{
+    position: absolute;
+    left: 40px;
+    width: 40px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6%;
+    font-size: 20px;
+    font-family: var(--fonte-primaria);
+    background-color: var(--cor-sextiaria);
+    padding: 24px;
+    font-weight: 500;
+}
+
+.cabecalho__conteudo{
+    cursor: pointer;
+}
+
+.link__cabecalho{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.telefone{
+    position: absolute;
+    right: 40px;
+    
+}
+
+.conteudo_principal{
+    margin: 4% 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo__bloco__esquerdo{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.titulo__principal{
+    font-size: 30px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 300;
+    display: flex;
+}
+
+.paragrafo__principal{
+    font-size: 20px;
+    font-family: var(--fonte-terciaria);
+}
+
+.estilo__certificado{
+    color: var(--cor-quartiaria);
+}
+
+.estilo__paragrafo{
+    font-size: 21px;
+    color: var(--cor-secundaria);
+}
+
+.estilo__paragrafo__linguagens{
+    color: var(--cor-terciaria);
+    font-size: 18px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.links__link{
+    text-decoration: none;
+    border: 3px solid var(--cor-sextiaria);
+    border-radius: 8px;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 22px;
+    color: #0C0C0C;
+    font-family: var(--fonte-quartiaria);
+    font-weight: 600;
+}
+
+.links__link:hover{
+    background-color: var(--cor-quintaria);
+}
+
+.img__link{
+    height: 28px;
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+
+.imagem{
+    border-radius: 20px;
+}
+
+.rodape{
+    background-color: var(--cor-sextiaria);
+    padding: 24px;
+    text-align: center;
+    font-size: 22px;
+    font-family: var(--fonte-primaria);
+}
+
+/* Currículo */
+
+.corpo__curriculo{
+    font-family: var(--fonte-terciaria);
+}
+
+.conteudo__principal__curriculo{
+    margin: 4% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bloco__esquerdo__curriculo{
+    padding: 0 14% 0 0;
+}
+
+.email__link{
+    color: var(--cor-terciaria);
+}
+
+.subtitulo__curriculo{
+    padding: 2% 0 2% 0 ;
+}
+
+.titulo__principal__curriculo{
+    font-size: 24px;
+    font-family: var(--fonte-terciaria);
+    font-weight: 300;
+    padding: 0 0 2% 0;
+}
+
+.paragrafo__empresas{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.paragrafo__empresa2{
+    padding: 3% 0 0 0;
+}
+
+
+
+
